@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust height as needed */
+    font-family: Arial, sans-serif; /* Example font */
+}
+
+#h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carImage {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.btn-custom {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.btn-custom:hover {
+    background-color: #e64a19;
+}

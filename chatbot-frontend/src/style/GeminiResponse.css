@@ -1,0 +1,25 @@
+.gemini-response-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gemini-response-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gemini-response, .gemini-final-severity, .gemini-recommendation {
+    margin-bottom: 20px;
+  }
+  
+  .gemini-response p, .gemini-final-severity p, .gemini-recommendation p {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
