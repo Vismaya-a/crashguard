@@ -100,13 +100,15 @@ A React-based web application that helps users assess car accident damage severi
 ---
 
 *Note: This frontend connects to a backend service running on `localhost:5000` for image processing, AI recommendations, and data persistence.*
+-----------------------------------------------------------
 
-```markdown
 ![Landing Page](readme-images/landing-page.jpg)
 ![Upload Page](readme-images/upload-page.jpg)
 ![Prediction Page](readme-images/prediction-page.jpg)
 ![Report Page](readme-images/report-page.jpg)
 ![Response Page](readme-images/gemini-response-page.jpg)
+
+------------------------------------------------------------
 
 # Crash Guard Backend: Vehicle Damage Detection API
 
