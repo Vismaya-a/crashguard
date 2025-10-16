@@ -216,7 +216,7 @@ data/
 
 ### Loss Curves
 
-![](readem-images/damage_whole_loss.png)
+![damage_whole_loss](readem-images/damage_whole_loss.png)
 
 *Training and validation loss across epochs*
 
