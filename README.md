@@ -216,13 +216,13 @@ data/
 
 ### Loss Curves
 
-![damage_whole_loss](readem-images/damage_whole_loss.png)
+![damage_whole_loss](readme-images/damage_whole_loss.png)
 
 *Training and validation loss across epochs*
 
 ### Accuracy Curves
 
-![Accuracy Visualization](readem-images/damage_whole_accuracy.png)
+![Accuracy Visualization](readme-images/damage_whole_accuracy.png)
 
 *Model accuracy progression during training*
 
@@ -399,18 +399,20 @@ dataset/
 
 ### Loss Curve
 
-```text
 
-![](readem-images/location_loss.png)
+
+![](readme-images/location_loss.png)
+```text
 - Blue line: Training loss decreasing from 1.35 to 0.41
 - Orange line: Validation loss fluctuating between 0.86-0.87
 - Clear indication of model learning on training data
 ```
 ### Accuracy Curve
 
-```text
 
-![](readem-images/damage_whole_accuracy.png)
+
+![](readme-images/location_accuracy.png)
+```text
 - Blue line: Training accuracy increasing from 47% to 84%
 - Orange line: Validation accuracy plateauing around 68%
 - Slight overfitting observed in later epochs
@@ -544,21 +546,20 @@ test_datagen = ImageDataGenerator(rescale=1./255)
 
 ### Loss Progression
 
-```
 
-![](readem-images/severity_loss.png)
 
-```
+![](readme-images/severity_loss.png)
+
 
 *Training loss decreased consistently from 1.1949 to 0.3798, while validation loss fluctuated between 0.8418-0.9939*
 
 ### Accuracy Progression  
 
-```
 
-![](readem-images/severity_accuracy.png)
 
-```
+![](readme-images/severity_accuracy.png)
+
+
 
 *Training accuracy improved from 51.48% to 86.78%, while validation accuracy remained around 60-62%*
 
