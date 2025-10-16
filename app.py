@@ -153,7 +153,7 @@ def ask_gemini():
     
     accident_report = data['accidentReport']
     situational_severity = data['situationalSeverity']
-    api_key = "AIzaSyBIZlc2zDjZD3wMJIqP68xKAuugGW20clY"  # Replace with your actual API key
+    api_key = API_KEY  # Replace with your actual API key
 
     try:
         if severity == "":
