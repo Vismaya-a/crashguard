@@ -35,12 +35,15 @@ backend/
 ├── app.py                   # Flask API
 ├── requirements.txt         # Python dependencies
 ├── models/
-│   ├── damage_or_whole.h5
-│   ├── location.h5
-│   └── severity.h5
+│   ├── damage_or_whole.h5 (place your model)
+│   ├── location.h5 (place your model)
+│   └── severity.h5(place youre model)
 ├── static/
 │   └── upload/              # Uploaded images
-├
+├___notebook/
+    |___damage_whole.ipynb
+|   |___location.ipynb
+|   |___severity.ipynb
 │   
 └── README.md                # This file
 
