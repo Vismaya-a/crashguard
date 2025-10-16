@@ -101,30 +101,17 @@ A React-based web application that helps users assess car accident damage severi
 
 *Note: This frontend connects to a backend service running on `localhost:5000` for image processing, AI recommendations, and data persistence.*
 
-### Pages
-
-``` ![landing](readme-images/landing-page.jpg)
-```
-
-```
- ![upload](readme-images/upload-page.jpg)
-```
-```
- ![prediction](readme-images/prediction-page.jpg)
-```
-```
-![report](readme-images/report-page.jpg)
-```
-```
- ![response](readme-images/gemini-response-page.jpg)
-```
-
-
+```markdown
+![Landing Page](readme-images/landing-page.jpg)
+![Upload Page](readme-images/upload-page.jpg)
+![Prediction Page](readme-images/prediction-page.jpg)
+![Report Page](readme-images/report-page.jpg)
+![Response Page](readme-images/gemini-response-page.jpg)
 
 # Crash Guard Backend: Vehicle Damage Detection API
 
 **Crash Guard Backend** integrates three machine learning models for vehicle damage analysis into a Flask API. It provides endpoints for classifying damage, identifying damage location, predicting severity, and generating situational recommendations.
-
+```
 ---
 
 
