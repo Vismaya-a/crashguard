@@ -102,7 +102,7 @@ A React-based web application that helps users assess car accident damage severi
 *Note: This frontend connects to a backend service running on `localhost:5000` for image processing, AI recommendations, and data persistence.*
 -----------------------------------------------------------
 
-#Pages
+# Pages
 
 ![Landing Page](readme-images/landing-page.jpg)
 ![Upload Page](readme-images/upload-page.jpg)
@@ -117,7 +117,7 @@ A React-based web application that helps users assess car accident damage severi
 **Crash Guard Backend** integrates three machine learning models for vehicle damage analysis into a Flask API. It provides endpoints for classifying damage, identifying damage location, predicting severity, and generating situational recommendations.
 
 ---
-```
+
 
 ⚙️ Backend: Flask API for Vehicle Damage Detection
 --------------------------------------------------
@@ -137,7 +137,7 @@ The backend of **Crash Guard** is built using **Flask** and serves as the API fo
 5.  **File Upload** -- Users can upload images via API.
 
 6.  **CORS Enabled** -- Allows API calls from different domains.
-```
+
 ---
 ## 📁 Repository Structure
 
