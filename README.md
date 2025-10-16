@@ -1,4 +1,112 @@
 # miniProject
+# CrashGuard - Car Damage Predictor & Legal Advisor
+
+A React-based web application that helps users assess car accident damage severity and get AI-powered legal recommendations.
+
+## 🚀 Features
+
+- **Image-based Damage Detection** - Upload accident images for automated damage assessment
+
+- **Severity Prediction** - Input accident details to determine situational severity
+
+- **AI Legal Advisor** - Get Gemini AI-powered legal recommendations
+
+- **Interactive Dashboard** - Track query history and responses
+
+- **User-friendly Interface** - Clean, responsive design with intuitive navigation
+
+## 🛠️ Frontend Structure
+
+### Core Pages
+
+1\. **Welcome Page** (`/`)
+
+   - Landing page with app introduction
+
+   - Navigation to damage prediction
+
+2\. **Prediction Page** (`/prediction`)
+
+   - Image upload for car accident damage analysis
+
+   - Real-time image preview
+
+   - Damage classification results
+
+3\. **Input Form** (`/input`)
+
+   - Detailed accident information collection:
+
+     - Distance from hometown
+
+     - Fault determination
+
+     - Vehicle categories involved
+
+     - Location details
+
+   - Automated severity calculation
+
+4\. **AI Response** (`/response`)
+
+   - Displays Gemini AI legal recommendations
+
+   - Clean presentation of AI-generated advice
+
+5\. **Dashboard** (`/dashboard`)
+
+   - Query submission interface
+
+   - Toggle-able history view
+
+   - Real-time updates of past interactions
+
+### Key Components
+
+- **Welcome** - Landing page with call-to-action
+
+- **Prediction** - Image upload and damage assessment
+
+- **Input** - Comprehensive accident data collection
+
+- **GeminiResponse** - AI legal advice display
+
+
+
+## 📱 Technology Stack
+
+- **Frontend Framework**: React.js
+
+- **Routing**: React Router DOM
+
+- **HTTP Client**: Axios
+
+- **Styling**: Custom CSS with component-specific stylesheets
+
+- **State Management**: React Hooks (useState, useEffect)
+
+## 🚦 User Flow
+
+1\. Start at Welcome Page → 
+
+2\. Upload accident image (Prediction Page) → 
+
+3\. Provide accident details (Input Form) → 
+
+4\. Receive AI legal recommendations (Response Page) → 
+
+5\. Manage queries and history (Dashboard)
+
+---
+
+*Note: This frontend connects to a backend service running on `localhost:5000` for image processing, AI recommendations, and data persistence.*
+
+### Sample Car Images
+| Image 1 | Image 2 | Image 3 | Image 4 | Image 5 |
+|---------|---------|---------|---------|---------|
+| ![landing](readme-images/landing-page.jpg) | ![upload](readme-images/upload-page.jpg) | ![prediction](readme-images/prediction-page.jpg) | ![report](readme-images/report-page.jpg) | ![response](readme-images/gemini-response-page.jpg) |
+
+
 
 # Crash Guard Backend: Vehicle Damage Detection API
 
